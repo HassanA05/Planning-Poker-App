@@ -34,6 +34,8 @@ The primary objective of the Planning Poker app is to facilitate unbiased and in
 
 The PlanningPokerFunctionality class relies on a shared drive, you will need to edit a line of code to enter a directory that is in a shared drive. The name of the Directory variable is BASEPATH. It relies on a shared drive so that the poll can see if a reveal.flg file exists and make the results display on everyone who is using the app.
 
+Another thing to note is this uses TableLayout. That is not standard java, so you will need to import a tablelayout into your enviroment, otherwise this will give you problems.
+
 DIRECTIONS OF USE
 
 Make sure you do the above, otherwise the app will not work. 
